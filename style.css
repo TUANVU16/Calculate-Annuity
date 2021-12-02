@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    color:indigo;
+}
+div{
+    border: 1px solid red;
+
+}
+input{
+    background-color: azure;
+    color: black;
+    font-weight: bold;
+}
+
+span{
+  background-color: green;  
+}

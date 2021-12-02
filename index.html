@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>CALCULATE ANNUITY</title>
+</head>
+<body>
+    <div>
+    <h1>Calculate Annuity</h1>
+    
+        The annuity amount: <input type="text" id="amount"/><br>
+        interest rate period: <input type="text" id="r"><br>
+        The number of annuity payments: <input type="text"id="n"><br>
+        <select  id="select">
+            <option value="ordinary" style="color: brown; font-weight: bold;">Annuity Ordinary</option>
+            <option value="due" style="color: rgb(97, 165, 42); font-weight: bold;">Annuity Due</option>
+        </select><br>
+        <input type="submit" onclick="calculate()" value="Calculate"><br>
+        <span id="result"></span>
+    </div>   
+
+    
+</body>
+</html>
